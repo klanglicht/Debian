@@ -1,0 +1,36 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.64
+    background_type = transparent
+    cursor_fg_color = "#3584e4"
+    cursor_bg_color = "#c061cb"
+    cursor_color_default = False
+    foreground_color = "#ff00f9"
+    show_titlebar = False
+    palette = "#fbf1c7:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#7c6f64:#928374:#9d0006:#79740e:#b57614:#076678:#8f3f71:#427b58:#3c3836"
+    bold_is_bright = True
+  [[cyberpunk]]
+    background_color = "#000b1e"
+    background_darkness = 0.64
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font =  SpaceMono Nerd Font Propo 12
+    foreground_color = "#0abdc6"
+    show_titlebar = False
+    scrollback_lines = 5000
+    palette = "#123e7c:#ff0000:#d300c4:#f57800:#123e7c:#711c91:#0abdc6:#d7d7d5:#1c61c2:#ff0000:#d300c4:#f57800:#00ff00:#711c91:#0abdc6:#d7d7d5"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
+
+
